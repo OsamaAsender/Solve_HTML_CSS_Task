@@ -1,0 +1,45 @@
+body{
+    padding-left: 25px;
+}
+button{
+    padding:10px;
+}
+button:hover{
+    cursor: pointer;
+}
+.MeetJack{
+    padding: 10px;
+}
+.divBorderAndPadding{
+    border: solid;
+    border-width: thin;
+    border-color: silver;
+    padding-inline-start: 25px;
+}
+.my{
+    margin-block: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.displayMid{
+    display: flex;
+    justify-content: center;
+}
+
+.displayEnd{
+    display: flex;
+    justify-content: end;
+}
+
+.NegativeBorderPaddingTop{
+    margin-block-start: -27px;
+}
+
+.ulCustomImageSize{
+    height:100px;
+    width: 100px;
+}

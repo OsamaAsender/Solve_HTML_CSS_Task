@@ -1,0 +1,9 @@
+body{
+    padding-inline-start: 10px;
+}
+button{
+    padding:10px;
+}
+button:hover{
+    cursor: pointer;
+}
