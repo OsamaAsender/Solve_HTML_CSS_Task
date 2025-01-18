@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/task5/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="/task5/index.html"><button>Back</button></a>
+    <hr />
+    <form action="/action_page.php">
+      <div>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" />
+      </div>
+
+      <div class="Gender Radio">
+        <p>Please Pick Your Gender :</p>
+
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender" value="Male" />
+
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender" value="Female" />
+      </div>
+
+      <div class="selectList" style="margin-block: 10px">
+        <label for="country">Choose country:</label>
+        <select name="country" id="country">
+          <option value="Jordan">Jordan</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="Iraq">Iraq</option>
+          <option value="Syria">Syria</option>
+        </select>
+      </div>
+
+      <div class="text-area">
+        <label for="message">Message: </label><br />
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    </div>
+      
+    <div class="selectBox" style="margin-block: 10px">
+        <label for="Subscribe">Subscribe?</label>
+        <input type="checkbox" id="Subscribe" name="Subscribe">
+    </div>
+
+      <input type="submit" value="Submit"">
+    </form>
+  </body>
+</html>

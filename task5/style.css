@@ -1,0 +1,35 @@
+body{
+    padding-inline-start: 10px;
+}
+button{
+    padding:10px
+}
+button:hover{
+    cursor: pointer;
+}
+
+form textarea {
+  display: block;
+  margin-block: 5px;
+}
+
+td,th{
+    border: solid;
+    border-width: thin;
+    padding-inline:20px;
+    padding-block:5px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  
+.NegativeBorderPaddingTop{
+    margin-block-start: -27px;
+}
+.divBorderAndPadding{
+    border: solid;
+    border-width: thin;
+    border-color: silver;
+    padding-inline-start: 25px;
+}
