@@ -1,0 +1,22 @@
+body{
+    padding-inline-start: 10px;
+}
+button{
+    padding:10px
+}
+button:hover{
+    cursor: pointer;
+}
+
+td ,th{
+    border: solid;
+    border-width: thin;
+    border-collapse: collapse;
+    padding-block: 10px;
+    padding-inline: 20px;
+    text-align: center;
+}
+
+.TableCellInlinePadding{
+    padding-inline: 50px;
+}
