@@ -1,0 +1,75 @@
+div {
+    padding: 10px;
+  }
+  button {
+    padding: 10px;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .flex-container {
+    border: solid;
+    border-color: gold;
+    border-width:thick;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 60%;
+    margin:auto;
+  }
+  .box1 {
+    text-align: center;
+    color: white;
+    background-color: #16a085;
+  }
+  .box2 {
+    text-align: center;
+    color: white;
+    background-color: #2ecc71;
+  }
+  .box3 {
+    text-align: center;
+    color: white;
+    background-color: #bdc3c7;
+  }
+  .box4 {
+    text-align: center;
+    color: white;
+    background-color: #e74c3c;
+  }
+  .box5 {
+    text-align: center;
+    color: white;
+    background-color: #f1c40f;
+  }
+  .box6 {
+    text-align: center;
+    color: white;
+    background-color: #de7a21;
+  }
+  .box7 {
+    text-align: center;
+    background-color: #34495e;
+    color: white;
+  }
+  .box8 {
+    text-align: center;
+    background-color: #9b59b6;
+    color: white;
+  }
+  .box9 {
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+  }
+  .box10 {
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+  }
+  .BoxSize{
+    margin: 10px;
+    height:50px;
+    width:200px;
+  }

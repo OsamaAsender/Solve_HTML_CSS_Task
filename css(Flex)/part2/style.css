@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #333;
+  padding: 10px;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+button{
+  padding:10px;
+}
+button:hover{
+  cursor: pointer;
+}

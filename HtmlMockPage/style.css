@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Sofia Sans';
+    src: url('HtmlMockPage/images/Font/static/SofiaSans-VariableFont_wght.ttf') format('woff2'),
+         url('HtmlMockPage/images/Font/static/SofiaSans-Italic-VariableFont_wght.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+body{
+    font-family:'Sofia-Sans', sans-serif ;
+    padding:0;
+    margin:0;
+}
+ul li{
+    list-style-type: none;
+    margin-inline: 6px;
+}
+.Container{
+    display: flex;
+    flex-direction:column;
+    Height:100vh;
+    width: 100vw;
+    width:100%;
+}
+.hero-image{
+    background-image: url("./images/slide1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90%;
+
+}
+.heroContainerPadding{
+    display: flex;
+    flex-direction:column;
+    padding-inline: 140px;
+    padding-block:25px;
+}
+.Navbar{
+    width: 100%;
+    position:sticky;
+}
+.FloatRi{
+    float: inline-end;
+}
+.FloatLe{
+    float: inline-start;
+}
+.NavbarAnchors{
+    color: white;
+    padding-block:8px;
+    padding-inline:20px;
+}
+.NavbarAnchors:hover{
+    transition-duration:500ms;
+    padding-block:8px;
+    padding-inline:20px;
+    border-radius:20px;
+    background-color:#FFC0CB ;
+    color: black;
+    cursor: pointer;
+}
+.NavbarLogoAnchor:{
+
+}
+.ActiveAnchor{
+    cursor: pointer;
+    padding-block:8px;
+    padding-inline:20px;
+    border-radius:20px;
+    background-color:#FFC0CB ;
+    color: black;
+}
+.HeroTextAndSliderSection{
+    padding-top:30px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction:row;
+}
+.HeroTextSection{
+    width: 50%;
+    padding-top:80px;
+}
+.sliders{
+    width:50%;
+}
+.HeroText{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.leftSliderAnchor{
+    font-size: 60px;
+    color: white;
+}
+.rightSliderAnchor{
+    font-size: 60px;
+    color: white;
+}
+a i:hover{
+    color: #FFC0CB;
+    transition-duration: 500ms;
+}

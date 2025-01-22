@@ -1,0 +1,67 @@
+div {
+  margin: auto;
+  height: 300px;
+  width: 600px;
+}
+button {
+  padding: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.box1 {
+  color: white;
+  background-color: #16a085;
+  align-self: baseline;
+}
+.box2 {
+  color: white;
+  background-color: #2ecc71;
+  align-self: center;
+}
+.box3 {
+  color: white;
+  background-color: #bdc3c7;
+  align-self: flex-start;
+}
+.box4 {
+  color: white;
+  background-color: #e74c3c;
+  align-self: flex-end;
+}
+.box5 {
+  color: white;
+  background-color: #f1c40f;
+  align-self: normal;
+}
+.box6 {
+  color: white;
+  background-color: #de7a21;
+  align-self: safe;
+}
+.box7 {
+  background-color: #34495e;
+  color: white;
+}
+.box8 {
+  background-color: #9b59b6;
+  color: white;
+}
+.box9 {
+  background-color: #3498db;
+  color: white;
+}
+.box10 {
+  background-color: #1abc9c;
+  color: white;
+}
+.box11 {
+  background-color: #7ca9b8;
+}
+.box12 {
+  background-color: #4d7298;
+}

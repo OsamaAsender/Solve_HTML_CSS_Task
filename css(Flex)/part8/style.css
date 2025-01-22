@@ -1,0 +1,28 @@
+div {
+    padding: 10px;
+  }
+  button {
+    padding: 10px;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .flex-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+  }
+.box1 {
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: #4916a0;
+    flex-grow: 3;
+  }
+  .box2 {
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: #2ecc71;
+  }
