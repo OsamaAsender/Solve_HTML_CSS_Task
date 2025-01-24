@@ -1,40 +1,134 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-  </head>
-  <body>
-    <div class="Container">
-      <div class="hero-image">
-        <div class="heroContainerPadding">
-          <div class="Navbar">
-            <ul>
-              <li class="FloatLe"><a class="" href="#"><img src="./images/logo.png" style="height: 30px;"></a></li>
-              <li class="FloatRi"><a class="NavbarAnchors">Enquiry</a></li>
-              <li class="FloatRi"><a class="NavbarAnchors">Spec</a></li>
-              <li class="FloatRi"><a class="NavbarAnchors">Photo Gallery</a></li>
-              <li class="FloatRi"><a class="NavbarAnchors">Car Price</a></li>
-              <li class="FloatRi"><a class="ActiveAnchor" >Home</a></li>
-          </ul>
-          </div>
-          <div class="HeroTextAndSliderSection">
-            <div class="HeroTextSection">
-              <p class="HeroText">Show and Sell Cars<br> With Prodac.</p>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" style="align-content: center;"><img src="./images/logo.png" style="height: 2rem;"></a>
+            <ul class="dFlex">
+                <li><a href="#"><button class="ActiveNavbarAnchors">Home</button></a></li>
+                <li><a href="#"><button class="NavbarAnchors">Car Price</button></a></li>
+                <li><a href="#"><button class="NavbarAnchors">Photo Gallery</button></a></li>
+                <li><a href="#"><button class="NavbarAnchors">Specs</button></a></li>
+                <li><a href="#"><button class="NavbarAnchors">Enquiry</button></a></li>
+            </ul>
+        </nav>
+        <section>
+            <p class="HeaderTextSize">Show And Sell Cars<br> With Prodac.</p>
+            <section>
+                <a href="#" class="arrowFontSize"><i class="fa-regular fa-circle-left"></i></a>
+                <a href="#" class="arrowFontSize"><i class="fa-regular fa-circle-right"></i></a>
+            </section>
+        </section>
+    </header>
+    <main>
+        <article>
+            <div class="AboutSection">
+                <h2 class="HeaderTextSize">About</h2>
+                <p class="ContentTextSize2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quia iure nobis aperiam, consequatur excepturi, tempora, eos dolore aliquid molestiae aliquam dolores a odio! Magnam unde tenetur asperiores et quam.
+                Reprehenderit odio sit repudiandae veritatis iure maiores fugit magni nobis impedit officiis, et optio</p>
             </div>
-            <div class="sliders">
-              <div style="float: right;">
-                <a href="#" class="leftSliderAnchor"><i class="fa-regular fa-circle-left"></i></a>
-                <a href="#" class="rightSliderAnchor"><i class="fa-regular fa-circle-right"></i></a>
-              </div>
-            </div>
-          </div>
-           
+        </article>
+        <div class="hr"><hr></div>
+        <div class="BookingSection">
+            <p class="HeaderTextSize2">Pricing Starts From: $15000*</p>
+            <p>(Prices might differ based on locations)</p>
+            <a href="#"><button class="ThemeBtn"><span style="font-size: larger;font-weight: bold;">Book now</span><br>(Pay 50% only)</button></a>
         </div>
-      </div>
-    </div>
-  </body>
+        <div class="vehicleViews">
+            <div class="item itemBg1"><p style="font-size: larger;font-weight: bold;">Exterior: Side-View</p></div>
+            <div class="item itemBg2"><p style="font-size: larger;font-weight: bold;">Exterior: Front-View</p></div>
+            <div class="item itemBg3"><p style="font-size: larger;font-weight: bold;">Exterior: Front-SideView</p></div>
+        </div>
+        <div class="VideoDiv">
+            <video width="100%" height="100%" controls>
+                <source src="./images/gallery/vid1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+        </div>
+        <div class="vehicleViews">
+            <div class="item itemBg4"><p style="font-size: larger;font-weight: bold;">Interior: GearBox View</p></div>
+            <div class="item itemBg5"><p style="font-size: larger;font-weight: bold;">Interior: Dashboard View</p></div>
+            <div class="item itemBg6"><p style="font-size: larger;font-weight: bold;">Interior: Side Profile</p></div>
+        </div>
+        <div class="Specs">
+            <h2 class="HeaderTextSize">Specs<br>
+            <span class="ContentTextSize2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida tempor mauris quis.</span></h2>
+            
+        </div>
+        <div class="SpecsTableContainer">
+            <div class="SpecsTableDiv">
+                <div class="leftTable">
+                    <table>
+                        <tr><td>Model</td></tr>
+                        <tr><td>Engine</td></tr>
+                        <tr><td>Fuel Type</td></tr>
+                        <tr><td>Seating Capacity</td></tr>
+                        <tr><td>Interior</td></tr>
+                    </table>
+                </div>
+                 <div class="rightTable">
+                        <table>
+                            <tr><td>Car Model Name</td></tr>
+                            <tr class="evenRow"><td>1876 CC</td></tr>
+                            <tr><td>Hybrid (Patrol/Electric)</td></tr>
+                            <tr class="evenRow"><td>7 Seater</td></tr>
+                            <tr><td>Music, Electric Speed Meter</td></tr>
+                        </table>
+                </div>
+            </div>
+        </div>
+            <div class="enquiryContainer">
+                <div class="enquiryDiv">
+                    <div class="Enquiry">
+                        <p class="HeaderTextSize">Send an Enquiry
+                            <br><span class="ContentTextSize2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida</span>
+                        </p>
+                        <div class="Enquiryform">
+                            <form action="/action_page.php" class="Enquiryform">
+                                <input type="text" size="26" placeholder="Enter Name*">
+                                <input type="email" size="26" placeholder="Email Address*">
+                                <input type="text" size="26" placeholder="Phone*">
+                                <input type="text" size="26" placeholder="City(eg. New York)*">
+                                <textarea rows="4" cols="4" placeholder="Describe"></textarea>
+                                <button class="ThemeBtn ContentTextSize2" type="submit" action="#">Submit <i class="fa-solid fa-arrow-right-long"></i></button>
+                              </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="DisclaimerDiv">
+            <p class="HeaderTextSize2">Disclaimer Text</p>
+                <p style="font-size: 19px;">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec turpis sit amet ante vehicula dictum in nec ex. 
+                    Proin tincidunt ex eu quam feugiat, ut viverra metus eleifend. Quisque molestie aliquam enim, et tristique ipsum euismod vel.
+                     Fusce imperdiet risus enim, vitae fringilla ligula dictum vel. Pellentesque sagittis nisl vel sem efficitur eleifend.
+                      Integer ultrices porttitor mauris. Nulla vel magna nisi. Morbi congue tortor non mauris commodo condimentum. 
+                      Aliquam porttitor magna ac lacinia dignissim.Donec gravida erat rutrum odio pellentesque elementum. Vestibulum
+                       eu luctus risus. Etiam nec rutrum metus.</p>
+        </div>
+        <div class="footerEndSection">
+            <div class="copyright">
+                <p>Copyright © 2025 Prodac. All Rights Reserved</p>
+            </div>
+            <div class="social">
+                <p>Follow Us</p>
+                <p><i class="fa-brands fa-youtube"></i></p>
+                <p><i class="fa-brands fa-instagram"></i></p>
+                <p><i class="fa-brands fa-twitter"></i></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
