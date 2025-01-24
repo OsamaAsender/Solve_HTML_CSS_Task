@@ -187,27 +187,32 @@ main{
 }
 .SpecsTableDiv{
     box-shadow: 2px 5px 6px 6px #b9b9b9; 
-    width:50%;
+    width:33%;
     margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-radius: 6px;
 }
 .leftTable{
     background-color: black;
     color: white;
-    width: 49%;
+    width: 50%;
+    border-radius: 6px;
 }
 .leftTable table tr td{
-    padding:55px;
-    font-size: xx-large;
+    padding-inline: 16px;
+    font-size: larger;
+    padding-block: 25px;
 }
 .rightTable{
-    width: 51%;
+    width: 50%;
+    border-radius: 6px;
 }
 .rightTable table tr td{
-    padding:55px;
-    font-size: xx-large;
+    padding-inline: 16px;
+    font-size: larger;
+    padding-block: 25px
 }
 .rightTable table tr td:hover{
     background-color: #d1d1d1;
@@ -239,7 +244,7 @@ main{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 87%;
+    width: 93%;
     margin: auto;
     padding-bottom: 3%;
 }
@@ -254,7 +259,7 @@ input{
     height: 6vw;
     padding: 1.2vw;
     margin-top: 1.2vw;
-    margin-bottom: 0.6vw;
+    margin-bottom: 2vw;
     border-radius: 6px;
 }
 footer{
@@ -284,4 +289,12 @@ footer{
     width: 20%;
     display: flex;
     justify-content: space-evenly;  
+}
+.social a  {
+    color: white;
+}
+
+.social a  :hover{
+    color: #FFC0CB;
+    transition-duration: 500ms;
 }
