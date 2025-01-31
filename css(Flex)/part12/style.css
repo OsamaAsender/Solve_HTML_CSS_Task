@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+
+/* Utility Classes */
+
+/* end */
+
+/* Header start */
+.containerd{
+    display: flex;
+    max-width: 1270px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+/* Side bar classes */
+.asidebar{
+    display: flex;
+    flex-direction: column;
+}
+.barsBtn{
+    background: none;
+    border: none;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 20px;
+}
+.barsBtn:hover{
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #e5e5e5;
+}
+
+.sideBtns{
+    padding-block:15px;
+    background: none;
+    border:none;
+}
+.sideBtns:hover{
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+.sideBarImg{
+    max-width: 25px;
+}
+.homeBtn{
+    padding-inline: 22px;
+}
+.shortsBtn{
+    padding-inline: 21px;
+}
+.youBtn{
+    padding-inline: 29px;
+}
+.BtnTxt{
+    margin-top: 5px;
+}
+.subscriptionBtn{
+    background: none;
+    border:none;
+    padding-block: 15px;
+    margin-top: 10px;
+}
+
+.subscriptionBtn:hover{
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+.downloadsBtn{
+    padding-block:15px;
+    padding-inline: 8px;
+}
+
+/* Side Bar Classes End */
+
+/* SearchBar-Logo Div Start */
+.Content-flex-col{
+    width: 100%;
+}
+.SearchBoxDiv{
+    width: 100%;
+}
+.dis-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.item {
+    height: 3rem;
+    margin-top: 0.6rem;
+}
+.item h3{
+    display: inline;
+}
+.logo-item{
+    margin-right: 0rem;
+}
+.LogoBtn{
+    display: flex;
+    margin-top: 0.7rem;
+    background: none;
+    border: none;
+}
+.LogoBtn:hover{
+    cursor: pointer;
+}
+.LogoBtnImg{
+    max-height: 30px;
+}
+.inpBox{
+    width: 35rem;
+    padding: 10.5px;
+    border: solid 1px;
+    border-color: #e5e5e5;
+    border-width: 1px;
+    border-start-start-radius: 15px;
+    border-end-start-radius:15px ;
+}
+.searchBtn{
+    padding: 10.5px;
+    border:solid 1px;
+    border-color: #e5e5e5;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+}
+.searchBtn:hover{
+    cursor: pointer;
+    background-color: #d9d9d9;
+}
+.micBtn{
+    margin-top: -2px;
+    font-size: 18px;
+    padding-inline: 16px;
+    padding-block: 11px;
+    border: none;
+    border-radius: 100%;
+}
+.micBtn:hover{
+    cursor: pointer;
+    background-color: #d9d9d9;
+}
+.createBtn{
+    padding-inline: 15px;
+    padding-block: 10px;
+    border: none;
+    border-radius: 15px;
+}
+.createBtn:hover{
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+.notificationBtn{
+    font-size: large;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border: none;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.notificationBtn:hover{
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+.userBtn{
+    background-color: #465A65;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border: none;
+    border-radius: 100%;
+}
+.userBtn:hover{
+    cursor: pointer;
+}
+
+/* SearchBar-Logo Div End */
+
+/* NavList start */
+.navList ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bg-light:hover{
+    cursor:pointer;
+    background-color: #d9d9d9;
+}
+/* NavList end */
+
+/* Header end */
+
+/* Main start */
+main{
+    display: grid;
+    grid-template-columns: 3,1fr;
+}
+/* Main end */

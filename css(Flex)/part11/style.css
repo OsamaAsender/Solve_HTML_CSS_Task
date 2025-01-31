@@ -1,0 +1,35 @@
+button {
+    padding: 10px;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+.Box{
+    height: 200px;
+    width: auto;
+    background-color: #EFEFEF;
+}
+.Sub{
+    background-color: #CFCFCF;
+}
+.Box p {
+    padding: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:3px;
+}
+.d-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3px;
+}
+.d-grid-row{
+    display: grid;
+    grid-template-rows: repeat(1fr,2);
+    gap: 3px;
+}
+#Box2{
+
+}

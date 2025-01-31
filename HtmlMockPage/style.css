@@ -251,6 +251,7 @@ main{
 input{
     padding-block: 15px;
     padding-inline: 15px;
+    margin-block: 2%;
     border-radius: 6px;
     border: none;
 }

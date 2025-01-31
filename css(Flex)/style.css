@@ -28,6 +28,9 @@ button:hover{
     margin:auto;
     padding: 10px;
 }
+.d-flex{
+    display: flex;
+}
 button{
     padding:10px;
 }
