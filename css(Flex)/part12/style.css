@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'roboto';
 }
 ul{
     list-style-type: none;
@@ -194,13 +195,63 @@ ul{
     cursor:pointer;
     background-color: #d9d9d9;
 }
+
+.btnAll{
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+}
+.btnAll:hover{
+    cursor: pointer;
+}
+.btnsNav{
+    border: solid 1px #e5e5e5;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btnsNav:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+
 /* NavList end */
 
-/* Header end */
-
-/* Main start */
-main{
+/* grid-content start */
+.grid-content{
     display: grid;
-    grid-template-columns: 3,1fr;
+    grid-template-columns: repeat(3,23rem);
 }
-/* Main end */
+.Griditem{
+    margin-left:3rem ;
+    padding-top: 3rem;
+}
+.video iframe{
+    border-radius: 15px;
+}
+
+.cardcontent{
+    display: flex;
+
+}
+.cardBody{
+    display: flex;
+    margin-top: 15px;
+}
+.cardBody p{
+    padding-top: 8px;
+    margin-left:1rem;
+    max-width: 15rem;
+}
+.cardFooter{
+    max-width: 17rem;
+}
+.cardFooter p{
+    margin-top: 10px;
+}
+
+/* grid-content end */
+
+/* Header end */

@@ -33,3 +33,33 @@ tr:nth-child(even) {
     border-color: silver;
     padding-inline-start: 25px;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto;
+    align-content: center;
+}
+.inputM-5{
+    margin-block: 5px;
+}
+.container form{
+    width: 50%;
+    margin: auto;
+    background-color: #262646;
+    color: #fff;
+    padding: 30px;
+}
+#Part11{
+    background-color:#4E4E94 ;
+}
+#Part11 form input #survey,
+#survey,
+#age,
+#email,
+#name,
+#cars,
+#pen{
+    width:100%;
+    padding: 5px;
+}

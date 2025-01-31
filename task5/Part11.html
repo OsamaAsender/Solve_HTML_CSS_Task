@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body id="Part11">
+    <a href="./index.html"><button>Back</button></a>
+    <hr>
+    <div class="container">
+        <h1 style="color: #fff;text-align: center;">Amman Coding Academy Survey Form</h1>
+        <h3 style="color: #fff;text-align: center;">(thank you for taking the time to help)</h3>
+      <form>
+        <label for="name">Name:</label>
+        <br />
+        <input type="text" id="name" placeholder="Enter your Name" class="inputM-5" />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <input type="text" id="email" placeholder="Enter your Email"/>
+        <br />
+        <label for="age">Age: (Optional)</label>
+        <br />
+        <input type="text" id="age" placeholder="Age" class="inputM-5" />
+        <br />
+        <label for="survey">How did you like my survey:</label>
+        <br />
+        <input type="text" id="survey" placeholder="How did you like my survey" />
+        <p>Would you recommend my pen to a friend?</p>
+          <input type="radio" id="html" name="fav_language" value="HTML" />  
+        <label for="html">Defenitly</label><br />
+          <input type="radio" id="css" name="fav_language" value="CSS" />  
+        <label for="css">Maybe</label><br />
+         
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript"
+        />
+          <label for="javascript">Not sure<br></label>
+
+        <label for="pen">What is your favorite feature of code pen?</label>
+        <br>
+        <select name="pen" id="pen" >
+          <option value="pen">Select an Option</option>
+          <option value="pen">s</option>
+          <option value="pen">d</option>
+          <option value="pen">f</option>
+        </select>
+        <br>
+        <p>What would you like to see improved in my survey?</p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Css needs to be more complex</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">use some javascript</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">No changes required</label>
+
+        <p>any comments or suggestions?</p>
+        <textarea id="Comments" name="suggestions" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+      </form>
+    </div>
+  </body>
 </html>
